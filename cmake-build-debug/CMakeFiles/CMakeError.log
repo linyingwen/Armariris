@@ -1,0 +1,441 @@
+Determining if the include file malloc/malloc.h exists failed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_97452/fast && /usr/bin/make  -f CMakeFiles/cmTC_97452.dir/build.make CMakeFiles/cmTC_97452.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_97452.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_97452.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: malloc/malloc.h: No such file or directory
+ #include <malloc/malloc.h>
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_97452.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_97452.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_97452.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_97452/fast' failed
+make: *** [cmTC_97452/fast] Error 2
+
+
+
+Determining if the include file ndir.h exists failed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8957a/fast && /usr/bin/make  -f CMakeFiles/cmTC_8957a.dir/build.make CMakeFiles/cmTC_8957a.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8957a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8957a.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: ndir.h: No such file or directory
+ #include <ndir.h>
+          ^~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_8957a.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_8957a.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_8957a.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_8957a/fast' failed
+make: *** [cmTC_8957a/fast] Error 2
+
+
+
+Determining if the include file sys/ndir.h exists failed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_44e43/fast && /usr/bin/make  -f CMakeFiles/cmTC_44e43.dir/build.make CMakeFiles/cmTC_44e43.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_44e43.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_44e43.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: sys/ndir.h: No such file or directory
+ #include <sys/ndir.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_44e43.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_44e43.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_44e43.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_44e43/fast' failed
+make: *** [cmTC_44e43/fast] Error 2
+
+
+
+Determining if the include file valgrind/valgrind.h exists failed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_671bd/fast && /usr/bin/make  -f CMakeFiles/cmTC_671bd.dir/build.make CMakeFiles/cmTC_671bd.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_671bd.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_671bd.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: valgrind/valgrind.h: No such file or directory
+ #include <valgrind/valgrind.h>
+          ^~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_671bd.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_671bd.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_671bd.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_671bd/fast' failed
+make: *** [cmTC_671bd/fast] Error 2
+
+
+
+Determining if the include file mach/mach.h exists failed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1a054/fast && /usr/bin/make  -f CMakeFiles/cmTC_1a054.dir/build.make CMakeFiles/cmTC_1a054.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1a054.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1a054.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: mach/mach.h: No such file or directory
+ #include <mach/mach.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_1a054.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_1a054.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_1a054.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_1a054/fast' failed
+make: *** [cmTC_1a054/fast] Error 2
+
+
+
+Determining if the include file mach-o/dyld.h exists failed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2391d/fast && /usr/bin/make  -f CMakeFiles/cmTC_2391d.dir/build.make CMakeFiles/cmTC_2391d.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2391d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2391d.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: mach-o/dyld.h: No such file or directory
+ #include <mach-o/dyld.h>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_2391d.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_2391d.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_2391d.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_2391d/fast' failed
+make: *** [cmTC_2391d/fast] Error 2
+
+
+
+Determining if the include file histedit.h exists failed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5f91d/fast && /usr/bin/make  -f CMakeFiles/cmTC_5f91d.dir/build.make CMakeFiles/cmTC_5f91d.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f91d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5f91d.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: histedit.h: No such file or directory
+ #include <histedit.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_5f91d.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_5f91d.dir/CheckIncludeFile.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_5f91d.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_5f91d/fast' failed
+make: *** [cmTC_5f91d/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2074e/fast && /usr/bin/make  -f CMakeFiles/cmTC_2074e.dir/build.make CMakeFiles/cmTC_2074e.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2074e.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_2074e.dir/src.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2074e
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2074e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_2074e.dir/src.c.o  -o cmTC_2074e  -lm 
+CMakeFiles/cmTC_2074e.dir/src.c.o: In function `main':
+src.c:(.text+0x3e): undefined reference to `pthread_create'
+src.c:(.text+0x4a): undefined reference to `pthread_detach'
+src.c:(.text+0x56): undefined reference to `pthread_cancel'
+src.c:(.text+0x67): undefined reference to `pthread_join'
+src.c:(.text+0x7b): undefined reference to `pthread_atfork'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_2074e.dir/build.make:106: recipe for target 'cmTC_2074e' failed
+make[1]: *** [cmTC_2074e] Error 1
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_2074e/fast' failed
+make: *** [cmTC_2074e/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3ad2a/fast && /usr/bin/make  -f CMakeFiles/cmTC_3ad2a.dir/build.make CMakeFiles/cmTC_3ad2a.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ad2a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_3ad2a.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/linux/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_3ad2a
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ad2a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_3ad2a.dir/CheckFunctionExists.c.o  -o cmTC_3ad2a  -lpthreads -lm 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3ad2a.dir/build.make:106: recipe for target 'cmTC_3ad2a' failed
+make[1]: *** [cmTC_3ad2a] Error 1
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_3ad2a/fast' failed
+make: *** [cmTC_3ad2a/fast] Error 2
+
+
+
+Determining if the function xar_open exists in the xar failed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1803c/fast && /usr/bin/make  -f CMakeFiles/cmTC_1803c.dir/build.make CMakeFiles/cmTC_1803c.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1803c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=xar_open   -o CMakeFiles/cmTC_1803c.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/linux/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1803c
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1803c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=xar_open    CMakeFiles/cmTC_1803c.dir/CheckFunctionExists.c.o  -o cmTC_1803c  -lxar -lm 
+/usr/bin/ld: cannot find -lxar
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_1803c.dir/build.make:106: recipe for target 'cmTC_1803c' failed
+make[1]: *** [cmTC_1803c] Error 1
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_1803c/fast' failed
+make: *** [cmTC_1803c/fast] Error 2
+
+
+
+Determining if the arc4random exist failed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4661c/fast && /usr/bin/make  -f CMakeFiles/cmTC_4661c.dir/build.make CMakeFiles/cmTC_4661c.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4661c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4661c.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘arc4random’ undeclared (first use in this function); did you mean ‘srandom’?
+   return ((int*)(&arc4random))[argc];
+                   ^~~~~~~~~~
+                   srandom
+/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_4661c.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_4661c.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_4661c.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_4661c/fast' failed
+make: *** [cmTC_4661c/fast] Error 2
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random
+  return ((int*)(&arc4random))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mallctl exist failed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_af1a5/fast && /usr/bin/make  -f CMakeFiles/cmTC_af1a5.dir/build.make CMakeFiles/cmTC_af1a5.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af1a5.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_af1a5.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: malloc_np.h: No such file or directory
+ #include <malloc_np.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_af1a5.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_af1a5.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_af1a5.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_af1a5/fast' failed
+make: *** [cmTC_af1a5/fast] Error 2
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc_np.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallctl
+  return ((int*)(&mallctl))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the malloc_zone_statistics exist failed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_837dc/fast && /usr/bin/make  -f CMakeFiles/cmTC_837dc.dir/build.make CMakeFiles/cmTC_837dc.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_837dc.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_837dc.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: malloc/malloc.h: No such file or directory
+ #include <malloc/malloc.h>
+          ^~~~~~~~~~~~~~~~~
+compilation terminated.
+CMakeFiles/cmTC_837dc.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_837dc.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_837dc.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_837dc/fast' failed
+make: *** [cmTC_837dc/fast] Error 2
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc/malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef malloc_zone_statistics
+  return ((int*)(&malloc_zone_statistics))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_s exist failed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_76868/fast && /usr/bin/make  -f CMakeFiles/cmTC_76868.dir/build.make CMakeFiles/cmTC_76868.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76868.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_76868.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: error: ‘strerror_s’ undeclared (first use in this function); did you mean ‘strerror_l’?
+   return ((int*)(&strerror_s))[argc];
+                   ^~~~~~~~~~
+                   strerror_l
+/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8:19: note: each undeclared identifier is reported only once for each function it appears in
+CMakeFiles/cmTC_76868.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_76868.dir/CheckSymbolExists.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_76868.dir/CheckSymbolExists.c.o] Error 1
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_76868/fast' failed
+make: *** [cmTC_76868/fast] Error 2
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_s
+  return ((int*)(&strerror_s))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test C_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG failed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4e2be/fast && /usr/bin/make  -f CMakeFiles/cmTC_4e2be.dir/build.make CMakeFiles/cmTC_4e2be.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e2be.dir/src.c.o
+/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -DC_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG   -Werror -Wcovered-switch-default -o CMakeFiles/cmTC_4e2be.dir/src.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command line option '-Wcovered-switch-default'; did you mean '-Wno-switch-default'?
+CMakeFiles/cmTC_4e2be.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_4e2be.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_4e2be.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_4e2be/fast' failed
+make: *** [cmTC_4e2be/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG failed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0918d/fast && /usr/bin/make  -f CMakeFiles/cmTC_0918d.dir/build.make CMakeFiles/cmTC_0918d.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0918d.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -DCXX_SUPPORTS_COVERED_SWITCH_DEFAULT_FLAG   -Werror -Wcovered-switch-default -o CMakeFiles/cmTC_0918d.dir/src.cxx.o -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wcovered-switch-default'; did you mean '-Wno-switch-default'?
+CMakeFiles/cmTC_0918d.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_0918d.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_0918d.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_0918d/fast' failed
+make: *** [cmTC_0918d/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG failed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_db7ff/fast && /usr/bin/make  -f CMakeFiles/cmTC_db7ff.dir/build.make CMakeFiles/cmTC_db7ff.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db7ff.dir/src.c.o
+/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -DC_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG   -Werror -Wdelete-non-virtual-dtor -o CMakeFiles/cmTC_db7ff.dir/src.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+cc1: error: command line option '-Wdelete-non-virtual-dtor' is valid for C++/ObjC++ but not for C [-Werror]
+cc1: all warnings being treated as errors
+CMakeFiles/cmTC_db7ff.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_db7ff.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_db7ff.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_db7ff/fast' failed
+make: *** [cmTC_db7ff/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test C_WCOMMENT_ALLOWS_LINE_WRAP failed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_625f1/fast && /usr/bin/make  -f CMakeFiles/cmTC_625f1.dir/build.make CMakeFiles/cmTC_625f1.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_625f1.dir/src.c.o
+/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -DC_WCOMMENT_ALLOWS_LINE_WRAP  -Werror -Wcomment   -o CMakeFiles/cmTC_625f1.dir/src.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/src.c:1:1: error: multi-line comment [-Werror=comment]
+ // \
+ ^
+cc1: all warnings being treated as errors
+CMakeFiles/cmTC_625f1.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_625f1.dir/src.c.o' failed
+make[1]: *** [CMakeFiles/cmTC_625f1.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_625f1/fast' failed
+make: *** [cmTC_625f1/fast] Error 2
+
+
+Source file was:
+// \
+//
+int main() {return 0;}
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG failed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d6773/fast && /usr/bin/make  -f CMakeFiles/cmTC_d6773.dir/build.make CMakeFiles/cmTC_d6773.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d6773.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wdelete-non-virtual-dtor -Wno-comment -Werror=date-time -std=c++11 -fno-common -Woverloaded-virtual -fno-strict-aliasing -DCXX_SUPPORTS_NO_NESTED_ANON_TYPES_FLAG   -Werror -Wnested-anon-types -o CMakeFiles/cmTC_d6773.dir/src.cxx.o -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-Wnested-anon-types'; did you mean '-Wnested-externs'?
+CMakeFiles/cmTC_d6773.dir/build.make:85: recipe for target 'CMakeFiles/cmTC_d6773.dir/src.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_d6773.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:141: recipe for target 'cmTC_d6773/fast' failed
+make: *** [cmTC_d6773/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }

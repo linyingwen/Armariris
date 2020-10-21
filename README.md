@@ -29,19 +29,19 @@ make -j4
 ### 用法
 编译时候添加选项开启字符串加密
 ```shell
--mllvm -sobf
+clang -mllvm -sobf ...
 ```
 开启控制流扁平化
 ```shell
--mllvm -fla
+clang -mllvm -fla ...
 ```
 开启指令替换
 ```shell
--mllvm -sub
+clang -mllvm -sub ...
 ```
 指定随机数生成器种子
 ```shell
--mllvm -seed=0xdeadbeaf
+clang -mllvm -seed=0xdeadbeaf ...
 ```
 
 ## English

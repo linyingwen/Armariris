@@ -1,0 +1,2302 @@
+The system is: Linux - 5.4.0-51-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/3.17.3/CompilerIdCXX/a.out"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+cc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+Copyright (C) 2017 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a189a/fast && /usr/bin/make  -f CMakeFiles/cmTC_a189a.dir/build.make CMakeFiles/cmTC_a189a.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a189a.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a189a.dir/testCCompiler.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_a189a
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a189a.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_a189a.dir/testCCompiler.c.o  -o cmTC_a189a 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d16fe/fast && /usr/bin/make  -f CMakeFiles/cmTC_d16fe.dir/build.make CMakeFiles/cmTC_d16fe.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d16fe.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_d16fe.dir/CMakeCCompilerABI.c.o   -c /opt/clion/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d16fe.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultiarch x86_64-linux-gnu /opt/clion/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d16fe.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccvRUewl.s
+GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/7/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: b62ed4a2880cd4159476ea8293b72fa8
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d16fe.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_d16fe.dir/CMakeCCompilerABI.c.o /tmp/ccvRUewl.s
+GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d16fe.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_d16fe
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d16fe.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_d16fe.dir/CMakeCCompilerABI.c.o  -o cmTC_d16fe 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d16fe' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccl94sFs.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d16fe /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_d16fe.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d16fe' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/7/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_d16fe/fast && /usr/bin/make  -f CMakeFiles/cmTC_d16fe.dir/build.make CMakeFiles/cmTC_d16fe.dir/build]
+  ignore line: [make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_d16fe.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_d16fe.dir/CMakeCCompilerABI.c.o   -c /opt/clion/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d16fe.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1 -quiet -v -imultiarch x86_64-linux-gnu /opt/clion/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d16fe.dir/CMakeCCompilerABI.c.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccvRUewl.s]
+  ignore line: [GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: b62ed4a2880cd4159476ea8293b72fa8]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d16fe.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_d16fe.dir/CMakeCCompilerABI.c.o /tmp/ccvRUewl.s]
+  ignore line: [GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d16fe.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_d16fe]
+  ignore line: [/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d16fe.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_d16fe.dir/CMakeCCompilerABI.c.o  -o cmTC_d16fe ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d16fe' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccl94sFs.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_d16fe /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_d16fe.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccl94sFs.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d16fe] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_d16fe.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3a299/fast && /usr/bin/make  -f CMakeFiles/cmTC_3a299.dir/build.make CMakeFiles/cmTC_3a299.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3a299.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_3a299.dir/testCXXCompiler.cxx.o -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_3a299
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a299.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_3a299.dir/testCXXCompiler.cxx.o  -o cmTC_3a299 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3e145/fast && /usr/bin/make  -f CMakeFiles/cmTC_3e145.dir/build.make CMakeFiles/cmTC_3e145.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3e145.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -v -o CMakeFiles/cmTC_3e145.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3e145.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /opt/clion/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_3e145.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccgf0EGT.s
+GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/7"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/7
+ /usr/include/x86_64-linux-gnu/c++/7
+ /usr/include/c++/7/backward
+ /usr/lib/gcc/x86_64-linux-gnu/7/include
+ /usr/local/include
+ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)
+	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 3eb3dc290cd5714c3e1c3ae751116f07
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3e145.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_3e145.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccgf0EGT.s
+GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3e145.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_3e145
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e145.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_3e145.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3e145 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3e145' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGQ8pO3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_3e145 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_3e145.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3e145' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/7]
+    add: [/usr/include/x86_64-linux-gnu/c++/7]
+    add: [/usr/include/c++/7/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+    add: [/usr/local/include]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/7] ==> [/usr/include/c++/7]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/7] ==> [/usr/include/x86_64-linux-gnu/c++/7]
+  collapse include dir [/usr/include/c++/7/backward] ==> [/usr/include/c++/7/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed] ==> [/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/7;/usr/include/x86_64-linux-gnu/c++/7;/usr/include/c++/7/backward;/usr/lib/gcc/x86_64-linux-gnu/7/include;/usr/local/include;/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/make cmTC_3e145/fast && /usr/bin/make  -f CMakeFiles/cmTC_3e145.dir/build.make CMakeFiles/cmTC_3e145.dir/build]
+  ignore line: [make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_3e145.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -v -o CMakeFiles/cmTC_3e145.dir/CMakeCXXCompilerABI.cpp.o -c /opt/clion/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3e145.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /opt/clion/bin/cmake/linux/share/cmake-3.17/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_3e145.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccgf0EGT.s]
+  ignore line: [GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/7"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/7/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/7]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/7]
+  ignore line: [ /usr/include/c++/7/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 7.5.0-3ubuntu1~18.04) version 7.5.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 3eb3dc290cd5714c3e1c3ae751116f07]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3e145.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_3e145.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccgf0EGT.s]
+  ignore line: [GNU assembler version 2.30 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3e145.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_3e145]
+  ignore line: [/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e145.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_3e145.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_3e145 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 7.5.0 (Ubuntu 7.5.0-3ubuntu1~18.04) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/7/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3e145' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGQ8pO3.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_3e145 /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/7 -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/7/../../.. CMakeFiles/cmTC_3e145.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/7/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccGQ8pO3.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_3e145] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..]
+    arg [CMakeFiles/cmTC_3e145.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7] ==> [/usr/lib/gcc/x86_64-linux-gnu/7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file dirent.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_add09/fast && /usr/bin/make  -f CMakeFiles/cmTC_add09.dir/build.make CMakeFiles/cmTC_add09.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_add09.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_add09.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_add09
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_add09.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_add09.dir/CheckIncludeFile.c.o  -o cmTC_add09 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_6bc93/fast && /usr/bin/make  -f CMakeFiles/cmTC_6bc93.dir/build.make CMakeFiles/cmTC_6bc93.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6bc93.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_6bc93.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_6bc93
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6bc93.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_6bc93.dir/CheckIncludeFile.c.o  -o cmTC_6bc93 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c5a74/fast && /usr/bin/make  -f CMakeFiles/cmTC_c5a74.dir/build.make CMakeFiles/cmTC_c5a74.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5a74.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c5a74.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c5a74
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5a74.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c5a74.dir/CheckIncludeFile.c.o  -o cmTC_c5a74 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7d6db/fast && /usr/bin/make  -f CMakeFiles/cmTC_7d6db.dir/build.make CMakeFiles/cmTC_7d6db.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d6db.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7d6db.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7d6db
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d6db.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_7d6db.dir/CheckIncludeFile.c.o  -o cmTC_7d6db 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c6c7a/fast && /usr/bin/make  -f CMakeFiles/cmTC_c6c7a.dir/build.make CMakeFiles/cmTC_c6c7a.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6c7a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c6c7a.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c6c7a
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6c7a.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c6c7a.dir/CheckIncludeFile.c.o  -o cmTC_c6c7a 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_75d7b/fast && /usr/bin/make  -f CMakeFiles/cmTC_75d7b.dir/build.make CMakeFiles/cmTC_75d7b.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75d7b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_75d7b.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_75d7b
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75d7b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_75d7b.dir/CheckIncludeFile.c.o  -o cmTC_75d7b 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_47b1d/fast && /usr/bin/make  -f CMakeFiles/cmTC_47b1d.dir/build.make CMakeFiles/cmTC_47b1d.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_47b1d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_47b1d.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_47b1d
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47b1d.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_47b1d.dir/CheckIncludeFile.c.o  -o cmTC_47b1d 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file link.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_81e0e/fast && /usr/bin/make  -f CMakeFiles/cmTC_81e0e.dir/build.make CMakeFiles/cmTC_81e0e.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81e0e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_81e0e.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_81e0e
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81e0e.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_81e0e.dir/CheckIncludeFile.c.o  -o cmTC_81e0e 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0aeb5/fast && /usr/bin/make  -f CMakeFiles/cmTC_0aeb5.dir/build.make CMakeFiles/cmTC_0aeb5.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0aeb5.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0aeb5.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0aeb5
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0aeb5.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_0aeb5.dir/CheckIncludeFile.c.o  -o cmTC_0aeb5 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_57260/fast && /usr/bin/make  -f CMakeFiles/cmTC_57260.dir/build.make CMakeFiles/cmTC_57260.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_57260.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_57260.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_57260
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57260.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_57260.dir/CheckIncludeFile.c.o  -o cmTC_57260 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fdde0/fast && /usr/bin/make  -f CMakeFiles/cmTC_fdde0.dir/build.make CMakeFiles/cmTC_fdde0.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fdde0.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fdde0.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fdde0
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdde0.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_fdde0.dir/CheckIncludeFile.c.o  -o cmTC_fdde0 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a79f5/fast && /usr/bin/make  -f CMakeFiles/cmTC_a79f5.dir/build.make CMakeFiles/cmTC_a79f5.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a79f5.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a79f5.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_a79f5
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a79f5.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_a79f5.dir/CheckIncludeFile.c.o  -o cmTC_a79f5 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/dir.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_91af6/fast && /usr/bin/make  -f CMakeFiles/cmTC_91af6.dir/build.make CMakeFiles/cmTC_91af6.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91af6.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_91af6.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_91af6
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91af6.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_91af6.dir/CheckIncludeFile.c.o  -o cmTC_91af6 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b67fa/fast && /usr/bin/make  -f CMakeFiles/cmTC_b67fa.dir/build.make CMakeFiles/cmTC_b67fa.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b67fa.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b67fa.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_b67fa
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b67fa.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_b67fa.dir/CheckIncludeFile.c.o  -o cmTC_b67fa 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_695df/fast && /usr/bin/make  -f CMakeFiles/cmTC_695df.dir/build.make CMakeFiles/cmTC_695df.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_695df.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_695df.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_695df
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_695df.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_695df.dir/CheckIncludeFile.c.o  -o cmTC_695df 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_47c98/fast && /usr/bin/make  -f CMakeFiles/cmTC_47c98.dir/build.make CMakeFiles/cmTC_47c98.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_47c98.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_47c98.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_47c98
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47c98.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_47c98.dir/CheckIncludeFile.c.o  -o cmTC_47c98 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7d9d6/fast && /usr/bin/make  -f CMakeFiles/cmTC_7d9d6.dir/build.make CMakeFiles/cmTC_7d9d6.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d9d6.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7d9d6.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7d9d6
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d9d6.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_7d9d6.dir/CheckIncludeFile.c.o  -o cmTC_7d9d6 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ec5a7/fast && /usr/bin/make  -f CMakeFiles/cmTC_ec5a7.dir/build.make CMakeFiles/cmTC_ec5a7.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ec5a7.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ec5a7.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ec5a7
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ec5a7.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ec5a7.dir/CheckIncludeFile.c.o  -o cmTC_ec5a7 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d476d/fast && /usr/bin/make  -f CMakeFiles/cmTC_d476d.dir/build.make CMakeFiles/cmTC_d476d.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d476d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d476d.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d476d
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d476d.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d476d.dir/CheckIncludeFile.c.o  -o cmTC_d476d 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bd94c/fast && /usr/bin/make  -f CMakeFiles/cmTC_bd94c.dir/build.make CMakeFiles/cmTC_bd94c.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bd94c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bd94c.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_bd94c
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd94c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_bd94c.dir/CheckIncludeFile.c.o  -o cmTC_bd94c 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/uio.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fa68c/fast && /usr/bin/make  -f CMakeFiles/cmTC_fa68c.dir/build.make CMakeFiles/cmTC_fa68c.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa68c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fa68c.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fa68c
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa68c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_fa68c.dir/CheckIncludeFile.c.o  -o cmTC_fa68c 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file termios.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_526c8/fast && /usr/bin/make  -f CMakeFiles/cmTC_526c8.dir/build.make CMakeFiles/cmTC_526c8.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_526c8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_526c8.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_526c8
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_526c8.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_526c8.dir/CheckIncludeFile.c.o  -o cmTC_526c8 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_af398/fast && /usr/bin/make  -f CMakeFiles/cmTC_af398.dir/build.make CMakeFiles/cmTC_af398.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af398.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_af398.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_af398
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af398.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_af398.dir/CheckIncludeFile.c.o  -o cmTC_af398 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file utime.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fd083/fast && /usr/bin/make  -f CMakeFiles/cmTC_fd083.dir/build.make CMakeFiles/cmTC_fd083.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fd083.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fd083.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_fd083
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd083.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_fd083.dir/CheckIncludeFile.c.o  -o cmTC_fd083 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file zlib.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_92228/fast && /usr/bin/make  -f CMakeFiles/cmTC_92228.dir/build.make CMakeFiles/cmTC_92228.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_92228.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_92228.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_92228
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92228.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_92228.dir/CheckIncludeFile.c.o  -o cmTC_92228 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_67719/fast && /usr/bin/make  -f CMakeFiles/cmTC_67719.dir/build.make CMakeFiles/cmTC_67719.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67719.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_67719.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_67719
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67719.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_67719.dir/CheckIncludeFile.c.o  -o cmTC_67719 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the FE_ALL_EXCEPT exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_288ad/fast && /usr/bin/make  -f CMakeFiles/cmTC_288ad.dir/build.make CMakeFiles/cmTC_288ad.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_288ad.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_288ad.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_288ad
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_288ad.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_288ad.dir/CheckSymbolExists.c.o  -o cmTC_288ad  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_ALL_EXCEPT
+  return ((int*)(&FE_ALL_EXCEPT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the FE_INEXACT exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_262d9/fast && /usr/bin/make  -f CMakeFiles/cmTC_262d9.dir/build.make CMakeFiles/cmTC_262d9.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_262d9.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_262d9.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_262d9
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_262d9.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_262d9.dir/CheckSymbolExists.c.o  -o cmTC_262d9  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_INEXACT
+  return ((int*)(&FE_INEXACT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_CXXABI_H succeeded with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8c4f5/fast && /usr/bin/make  -f CMakeFiles/cmTC_8c4f5.dir/build.make CMakeFiles/cmTC_8c4f5.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8c4f5.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXXABI_H   -o CMakeFiles/cmTC_8c4f5.dir/src.cxx.o -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8c4f5
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c4f5.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_CXXABI_H    CMakeFiles/cmTC_8c4f5.dir/src.cxx.o  -o cmTC_8c4f5  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <stddef.h>
+#include <cxxabi.h>
+int main() { return 0; }
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_95827/fast && /usr/bin/make  -f CMakeFiles/cmTC_95827.dir/build.make CMakeFiles/cmTC_95827.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95827.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_95827.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/linux/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_95827
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95827.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_95827.dir/CheckFunctionExists.c.o  -o cmTC_95827  -lpthread -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_getspecific exists in the pthread passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_5fc86/fast && /usr/bin/make  -f CMakeFiles/cmTC_5fc86.dir/build.make CMakeFiles/cmTC_5fc86.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5fc86.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_getspecific   -o CMakeFiles/cmTC_5fc86.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/linux/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_5fc86
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fc86.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_getspecific    CMakeFiles/cmTC_5fc86.dir/CheckFunctionExists.c.o  -o cmTC_5fc86  -lpthread -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_rwlock_init exists in the pthread passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_70894/fast && /usr/bin/make  -f CMakeFiles/cmTC_70894.dir/build.make CMakeFiles/cmTC_70894.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70894.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init   -o CMakeFiles/cmTC_70894.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/linux/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_70894
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70894.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init    CMakeFiles/cmTC_70894.dir/CheckFunctionExists.c.o  -o cmTC_70894  -lpthread -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_mutex_lock exists in the pthread passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f7a5a/fast && /usr/bin/make  -f CMakeFiles/cmTC_f7a5a.dir/build.make CMakeFiles/cmTC_f7a5a.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7a5a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock   -o CMakeFiles/cmTC_f7a5a.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/linux/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f7a5a
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7a5a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock    CMakeFiles/cmTC_f7a5a.dir/CheckFunctionExists.c.o  -o cmTC_f7a5a  -lpthread -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_51e59/fast && /usr/bin/make  -f CMakeFiles/cmTC_51e59.dir/build.make CMakeFiles/cmTC_51e59.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51e59.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTC_51e59.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/linux/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_51e59
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51e59.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dlopen    CMakeFiles/cmTC_51e59.dir/CheckFunctionExists.c.o  -o cmTC_51e59  -ldl -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d16e4/fast && /usr/bin/make  -f CMakeFiles/cmTC_d16e4.dir/build.make CMakeFiles/cmTC_d16e4.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d16e4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_d16e4.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/linux/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d16e4
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d16e4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTC_d16e4.dir/CheckFunctionExists.c.o  -o cmTC_d16e4  -lrt -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d1dc3/fast && /usr/bin/make  -f CMakeFiles/cmTC_d1dc3.dir/build.make CMakeFiles/cmTC_d1dc3.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1dc3.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d1dc3.dir/CheckIncludeFile.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d1dc3
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1dc3.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d1dc3.dir/CheckIncludeFile.c.o  -o cmTC_d1dc3 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_77ef7/fast && /usr/bin/make  -f CMakeFiles/cmTC_77ef7.dir/build.make CMakeFiles/cmTC_77ef7.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_77ef7.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_77ef7.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/linux/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_77ef7
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77ef7.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_77ef7.dir/CheckFunctionExists.c.o  -o cmTC_77ef7  -lpthread -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function compress2 exists in the z passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1b97b/fast && /usr/bin/make  -f CMakeFiles/cmTC_1b97b.dir/build.make CMakeFiles/cmTC_1b97b.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b97b.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=compress2   -o CMakeFiles/cmTC_1b97b.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/linux/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_1b97b
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b97b.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=compress2    CMakeFiles/cmTC_1b97b.dir/CheckFunctionExists.c.o  -o cmTC_1b97b  -lz -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function setupterm exists in the tinfo passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f29ff/fast && /usr/bin/make  -f CMakeFiles/cmTC_f29ff.dir/build.make CMakeFiles/cmTC_f29ff.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f29ff.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=setupterm   -o CMakeFiles/cmTC_f29ff.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/linux/share/cmake-3.17/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f29ff
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f29ff.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=setupterm    CMakeFiles/cmTC_f29ff.dir/CheckFunctionExists.c.o  -o cmTC_f29ff  -ltinfo -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the backtrace exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a9f85/fast && /usr/bin/make  -f CMakeFiles/cmTC_a9f85.dir/build.make CMakeFiles/cmTC_a9f85.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a9f85.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a9f85.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a9f85
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9f85.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_a9f85.dir/CheckSymbolExists.c.o  -o cmTC_a9f85  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _Unwind_Backtrace exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ba654/fast && /usr/bin/make  -f CMakeFiles/cmTC_ba654.dir/build.make CMakeFiles/cmTC_ba654.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba654.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ba654.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_ba654
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba654.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ba654.dir/CheckSymbolExists.c.o  -o cmTC_ba654  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Unwind_Backtrace
+  return ((int*)(&_Unwind_Backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c60c8/fast && /usr/bin/make  -f CMakeFiles/cmTC_c60c8.dir/build.make CMakeFiles/cmTC_c60c8.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c60c8.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c60c8.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c60c8
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c60c8.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c60c8.dir/CheckSymbolExists.c.o  -o cmTC_c60c8  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrusage exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_46f04/fast && /usr/bin/make  -f CMakeFiles/cmTC_46f04.dir/build.make CMakeFiles/cmTC_46f04.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_46f04.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_46f04.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_46f04
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46f04.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_46f04.dir/CheckSymbolExists.c.o  -o cmTC_46f04  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setrlimit exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_568e4/fast && /usr/bin/make  -f CMakeFiles/cmTC_568e4.dir/build.make CMakeFiles/cmTC_568e4.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_568e4.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_568e4.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_568e4
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_568e4.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_568e4.dir/CheckSymbolExists.c.o  -o cmTC_568e4  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isatty exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_a55fd/fast && /usr/bin/make  -f CMakeFiles/cmTC_a55fd.dir/build.make CMakeFiles/cmTC_a55fd.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a55fd.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a55fd.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_a55fd
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a55fd.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_a55fd.dir/CheckSymbolExists.c.o  -o cmTC_a55fd  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isatty
+  return ((int*)(&isatty))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimens exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4ad3f/fast && /usr/bin/make  -f CMakeFiles/cmTC_4ad3f.dir/build.make CMakeFiles/cmTC_4ad3f.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ad3f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4ad3f.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4ad3f
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ad3f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_4ad3f.dir/CheckSymbolExists.c.o  -o cmTC_4ad3f  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimens
+  return ((int*)(&futimens))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimes exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b3178/fast && /usr/bin/make  -f CMakeFiles/cmTC_b3178.dir/build.make CMakeFiles/cmTC_b3178.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3178.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b3178.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b3178
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3178.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_b3178.dir/CheckSymbolExists.c.o  -o cmTC_b3178  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimes
+  return ((int*)(&futimes))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sigaltstack exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4183b/fast && /usr/bin/make  -f CMakeFiles/cmTC_4183b.dir/build.make CMakeFiles/cmTC_4183b.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4183b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4183b.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_4183b
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4183b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_4183b.dir/CheckSymbolExists.c.o  -o cmTC_4183b  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaltstack
+  return ((int*)(&sigaltstack))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the writev exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9be3a/fast && /usr/bin/make  -f CMakeFiles/cmTC_9be3a.dir/build.make CMakeFiles/cmTC_9be3a.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9be3a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9be3a.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9be3a
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9be3a.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_9be3a.dir/CheckSymbolExists.c.o  -o cmTC_9be3a  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/uio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef writev
+  return ((int*)(&writev))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mallinfo exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_68f71/fast && /usr/bin/make  -f CMakeFiles/cmTC_68f71.dir/build.make CMakeFiles/cmTC_68f71.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68f71.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_68f71.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_68f71
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68f71.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_68f71.dir/CheckSymbolExists.c.o  -o cmTC_68f71  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallinfo
+  return ((int*)(&mallinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mkdtemp exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e869e/fast && /usr/bin/make  -f CMakeFiles/cmTC_e869e.dir/build.make CMakeFiles/cmTC_e869e.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e869e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e869e.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e869e
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e869e.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_e869e.dir/CheckSymbolExists.c.o  -o cmTC_e869e  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkdtemp
+  return ((int*)(&mkdtemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mkstemp exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_526cc/fast && /usr/bin/make  -f CMakeFiles/cmTC_526cc.dir/build.make CMakeFiles/cmTC_526cc.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_526cc.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_526cc.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_526cc
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_526cc.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_526cc.dir/CheckSymbolExists.c.o  -o cmTC_526cc  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mkstemp
+  return ((int*)(&mkstemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mktemp exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3b331/fast && /usr/bin/make  -f CMakeFiles/cmTC_3b331.dir/build.make CMakeFiles/cmTC_3b331.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b331.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3b331.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3b331
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b331.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_3b331.dir/CheckSymbolExists.c.o  -o cmTC_3b331  -lm 
+CMakeFiles/cmTC_3b331.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): warning: the use of `mktemp' is dangerous, better use `mkstemp' or `mkdtemp'
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mktemp
+  return ((int*)(&mktemp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the closedir exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f9d89/fast && /usr/bin/make  -f CMakeFiles/cmTC_f9d89.dir/build.make CMakeFiles/cmTC_f9d89.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9d89.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f9d89.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f9d89
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9d89.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f9d89.dir/CheckSymbolExists.c.o  -o cmTC_f9d89  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <dirent.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef closedir
+  return ((int*)(&closedir))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the opendir exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_b3d27/fast && /usr/bin/make  -f CMakeFiles/cmTC_b3d27.dir/build.make CMakeFiles/cmTC_b3d27.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b3d27.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b3d27.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_b3d27
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3d27.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_b3d27.dir/CheckSymbolExists.c.o  -o cmTC_b3d27  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <dirent.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef opendir
+  return ((int*)(&opendir))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the readdir exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e5ca7/fast && /usr/bin/make  -f CMakeFiles/cmTC_e5ca7.dir/build.make CMakeFiles/cmTC_e5ca7.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e5ca7.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e5ca7.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e5ca7
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e5ca7.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_e5ca7.dir/CheckSymbolExists.c.o  -o cmTC_e5ca7  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <dirent.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef readdir
+  return ((int*)(&readdir))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getcwd exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f20aa/fast && /usr/bin/make  -f CMakeFiles/cmTC_f20aa.dir/build.make CMakeFiles/cmTC_f20aa.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f20aa.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f20aa.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f20aa
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f20aa.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f20aa.dir/CheckSymbolExists.c.o  -o cmTC_f20aa  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getcwd
+  return ((int*)(&getcwd))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c41ac/fast && /usr/bin/make  -f CMakeFiles/cmTC_c41ac.dir/build.make CMakeFiles/cmTC_c41ac.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c41ac.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c41ac.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c41ac
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c41ac.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c41ac.dir/CheckSymbolExists.c.o  -o cmTC_c41ac  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrlimit exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_3504a/fast && /usr/bin/make  -f CMakeFiles/cmTC_3504a.dir/build.make CMakeFiles/cmTC_3504a.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3504a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_3504a.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3504a
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3504a.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_3504a.dir/CheckSymbolExists.c.o  -o cmTC_3504a  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the posix_spawn exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e4925/fast && /usr/bin/make  -f CMakeFiles/cmTC_e4925.dir/build.make CMakeFiles/cmTC_e4925.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4925.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e4925.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_e4925
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4925.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_e4925.dir/CheckSymbolExists.c.o  -o cmTC_e4925  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <spawn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_spawn
+  return ((int*)(&posix_spawn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pread exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_832c4/fast && /usr/bin/make  -f CMakeFiles/cmTC_832c4.dir/build.make CMakeFiles/cmTC_832c4.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_832c4.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_832c4.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_832c4
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_832c4.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_832c4.dir/CheckSymbolExists.c.o  -o cmTC_832c4  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pread
+  return ((int*)(&pread))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the realpath exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8f037/fast && /usr/bin/make  -f CMakeFiles/cmTC_8f037.dir/build.make CMakeFiles/cmTC_8f037.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f037.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8f037.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_8f037
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f037.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_8f037.dir/CheckSymbolExists.c.o  -o cmTC_8f037  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realpath
+  return ((int*)(&realpath))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sbrk exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_feef6/fast && /usr/bin/make  -f CMakeFiles/cmTC_feef6.dir/build.make CMakeFiles/cmTC_feef6.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_feef6.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_feef6.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_feef6
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_feef6.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_feef6.dir/CheckSymbolExists.c.o  -o cmTC_feef6  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sbrk
+  return ((int*)(&sbrk))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the srand48 exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_d0d6b/fast && /usr/bin/make  -f CMakeFiles/cmTC_d0d6b.dir/build.make CMakeFiles/cmTC_d0d6b.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d0d6b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_d0d6b.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d0d6b
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d0d6b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_d0d6b.dir/CheckSymbolExists.c.o  -o cmTC_d0d6b  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef srand48
+  return ((int*)(&srand48))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the lrand48 exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2f8d4/fast && /usr/bin/make  -f CMakeFiles/cmTC_2f8d4.dir/build.make CMakeFiles/cmTC_2f8d4.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2f8d4.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2f8d4.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2f8d4
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f8d4.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_2f8d4.dir/CheckSymbolExists.c.o  -o cmTC_2f8d4  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lrand48
+  return ((int*)(&lrand48))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the drand48 exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2f2aa/fast && /usr/bin/make  -f CMakeFiles/cmTC_2f2aa.dir/build.make CMakeFiles/cmTC_2f2aa.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2f2aa.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2f2aa.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2f2aa
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2f2aa.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_2f2aa.dir/CheckSymbolExists.c.o  -o cmTC_2f2aa  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef drand48
+  return ((int*)(&drand48))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoll exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_c5cb4/fast && /usr/bin/make  -f CMakeFiles/cmTC_c5cb4.dir/build.make CMakeFiles/cmTC_c5cb4.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c5cb4.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c5cb4.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_c5cb4
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c5cb4.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_c5cb4.dir/CheckSymbolExists.c.o  -o cmTC_c5cb4  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoq exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1f163/fast && /usr/bin/make  -f CMakeFiles/cmTC_1f163.dir/build.make CMakeFiles/cmTC_1f163.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1f163.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1f163.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1f163
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f163.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_1f163.dir/CheckSymbolExists.c.o  -o cmTC_1f163  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoq
+  return ((int*)(&strtoq))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_582e1/fast && /usr/bin/make  -f CMakeFiles/cmTC_582e1.dir/build.make CMakeFiles/cmTC_582e1.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_582e1.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_582e1.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_582e1
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_582e1.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_582e1.dir/CheckSymbolExists.c.o  -o cmTC_582e1  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_r exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0893f/fast && /usr/bin/make  -f CMakeFiles/cmTC_0893f.dir/build.make CMakeFiles/cmTC_0893f.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0893f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0893f.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_0893f
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0893f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_0893f.dir/CheckSymbolExists.c.o  -o cmTC_0893f  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setenv exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7025f/fast && /usr/bin/make  -f CMakeFiles/cmTC_7025f.dir/build.make CMakeFiles/cmTC_7025f.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7025f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7025f.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7025f
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7025f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_7025f.dir/CheckSymbolExists.c.o  -o cmTC_7025f  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dlerror exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_2394c/fast && /usr/bin/make  -f CMakeFiles/cmTC_2394c.dir/build.make CMakeFiles/cmTC_2394c.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2394c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2394c.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_2394c
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2394c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_2394c.dir/CheckSymbolExists.c.o  -o cmTC_2394c  -lm -ldl 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlerror
+  return ((int*)(&dlerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dlopen exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_f1c88/fast && /usr/bin/make  -f CMakeFiles/cmTC_f1c88.dir/build.make CMakeFiles/cmTC_f1c88.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1c88.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f1c88.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f1c88
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1c88.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_f1c88.dir/CheckSymbolExists.c.o  -o cmTC_f1c88  -lm -ldl 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __GLIBC__ exist passed with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_1ae2c/fast && /usr/bin/make  -f CMakeFiles/cmTC_1ae2c.dir/build.make CMakeFiles/cmTC_1ae2c.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1ae2c.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1ae2c.dir/CheckSymbolExists.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_1ae2c
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ae2c.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_1ae2c.dir/CheckSymbolExists.c.o  -o cmTC_1ae2c  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+File /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_INT64_T succeeded with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_e192f/fast && /usr/bin/make  -f CMakeFiles/cmTC_e192f.dir/build.make CMakeFiles/cmTC_e192f.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e192f.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_INT64_T   -o CMakeFiles/cmTC_e192f.dir/src.cxx.o -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e192f
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e192f.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_INT64_T    CMakeFiles/cmTC_e192f.dir/src.cxx.o  -o cmTC_e192f  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ int64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_UINT64_T succeeded with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4ce4e/fast && /usr/bin/make  -f CMakeFiles/cmTC_4ce4e.dir/build.make CMakeFiles/cmTC_4ce4e.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4ce4e.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_UINT64_T   -o CMakeFiles/cmTC_4ce4e.dir/src.cxx.o -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4ce4e
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ce4e.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_UINT64_T    CMakeFiles/cmTC_4ce4e.dir/src.cxx.o  -o cmTC_4ce4e  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ uint64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_U_INT64_T succeeded with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_ddb10/fast && /usr/bin/make  -f CMakeFiles/cmTC_ddb10.dir/build.make CMakeFiles/cmTC_ddb10.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ddb10.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_U_INT64_T   -o CMakeFiles/cmTC_ddb10.dir/src.cxx.o -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_ddb10
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddb10.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_U_INT64_T    CMakeFiles/cmTC_ddb10.dir/src.cxx.o  -o cmTC_ddb10  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+    #include<sys/types.h>
+#include<inttypes.h>
+#include<stdint.h>
+ u_int64_t typeVar;
+    int main() {
+        return 0;
+    }
+    
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS_WITHOUT_LIB succeeded with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_bf9be/fast && /usr/bin/make  -f CMakeFiles/cmTC_bf9be.dir/build.make CMakeFiles/cmTC_bf9be.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bf9be.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXX_ATOMICS_WITHOUT_LIB -std=c++11   -o CMakeFiles/cmTC_bf9be.dir/src.cxx.o -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_bf9be
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf9be.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_CXX_ATOMICS_WITHOUT_LIB -std=c++11    CMakeFiles/cmTC_bf9be.dir/src.cxx.o  -o cmTC_bf9be  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <atomic>
+std::atomic<int> x;
+int main() {
+  return x;
+}
+
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS64_WITHOUT_LIB succeeded with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_56548/fast && /usr/bin/make  -f CMakeFiles/cmTC_56548.dir/build.make CMakeFiles/cmTC_56548.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_56548.dir/src.cxx.o
+/usr/bin/c++    -DHAVE_CXX_ATOMICS64_WITHOUT_LIB -std=c++11   -o CMakeFiles/cmTC_56548.dir/src.cxx.o -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_56548
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56548.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAVE_CXX_ATOMICS64_WITHOUT_LIB -std=c++11    CMakeFiles/cmTC_56548.dir/src.cxx.o  -o cmTC_56548  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#include <atomic>
+#include <cstdint>
+std::atomic<uint64_t> x (0);
+int main() {
+  uint64_t i = x.load(std::memory_order_relaxed);
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test LLVM_HAS_ATOMICS succeeded with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_8b134/fast && /usr/bin/make  -f CMakeFiles/cmTC_8b134.dir/build.make CMakeFiles/cmTC_8b134.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8b134.dir/src.cxx.o
+/usr/bin/c++    -DLLVM_HAS_ATOMICS   -o CMakeFiles/cmTC_8b134.dir/src.cxx.o -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_8b134
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b134.dir/link.txt --verbose=1
+/usr/bin/c++   -DLLVM_HAS_ATOMICS    CMakeFiles/cmTC_8b134.dir/src.cxx.o  -o cmTC_8b134  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+#ifdef _MSC_VER
+#include <Intrin.h> /* Workaround for PR19898. */
+#include <windows.h>
+#endif
+int main() {
+#ifdef _MSC_VER
+        volatile LONG val = 1;
+        MemoryBarrier();
+        InterlockedCompareExchange(&val, 0, 1);
+        InterlockedIncrement(&val);
+        InterlockedDecrement(&val);
+#else
+        volatile unsigned long val = 1;
+        __sync_synchronize();
+        __sync_val_compare_and_swap(&val, 1, 0);
+        __sync_add_and_fetch(&val, 1);
+        __sync_sub_and_fetch(&val, 1);
+#endif
+        return 0;
+      }
+
+Performing C++ SOURCE FILE Test SUPPORTS_NO_VARIADIC_MACROS_FLAG succeeded with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_46962/fast && /usr/bin/make  -f CMakeFiles/cmTC_46962.dir/build.make CMakeFiles/cmTC_46962.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_46962.dir/src.cxx.o
+/usr/bin/c++    -DSUPPORTS_NO_VARIADIC_MACROS_FLAG   -Wno-variadic-macros -o CMakeFiles/cmTC_46962.dir/src.cxx.o -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_46962
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46962.dir/link.txt --verbose=1
+/usr/bin/c++   -DSUPPORTS_NO_VARIADIC_MACROS_FLAG    CMakeFiles/cmTC_46962.dir/src.cxx.o  -o cmTC_46962  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_MAYBE_UNINITIALIZED succeeded with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_260a5/fast && /usr/bin/make  -f CMakeFiles/cmTC_260a5.dir/build.make CMakeFiles/cmTC_260a5.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_260a5.dir/src.cxx.o
+/usr/bin/c++    -DHAS_MAYBE_UNINITIALIZED   -Wmaybe-uninitialized -o CMakeFiles/cmTC_260a5.dir/src.cxx.o -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_260a5
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_260a5.dir/link.txt --verbose=1
+/usr/bin/c++   -DHAS_MAYBE_UNINITIALIZED    CMakeFiles/cmTC_260a5.dir/src.cxx.o  -o cmTC_260a5  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_474d6/fast && /usr/bin/make  -f CMakeFiles/cmTC_474d6.dir/build.make CMakeFiles/cmTC_474d6.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_474d6.dir/src.c.o
+/usr/bin/cc   -DC_SUPPORTS_FPIC   -Werror -fPIC -o CMakeFiles/cmTC_474d6.dir/src.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_474d6
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_474d6.dir/link.txt --verbose=1
+/usr/bin/cc  -DC_SUPPORTS_FPIC    CMakeFiles/cmTC_474d6.dir/src.c.o  -o cmTC_474d6  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_18ad7/fast && /usr/bin/make  -f CMakeFiles/cmTC_18ad7.dir/build.make CMakeFiles/cmTC_18ad7.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_18ad7.dir/src.cxx.o
+/usr/bin/c++    -DCXX_SUPPORTS_FPIC   -Werror -fPIC -o CMakeFiles/cmTC_18ad7.dir/src.cxx.o -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_18ad7
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18ad7.dir/link.txt --verbose=1
+/usr/bin/c++   -DCXX_SUPPORTS_FPIC    CMakeFiles/cmTC_18ad7.dir/src.cxx.o  -o cmTC_18ad7  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG succeeded with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_0af1c/fast && /usr/bin/make  -f CMakeFiles/cmTC_0af1c.dir/build.make CMakeFiles/cmTC_0af1c.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0af1c.dir/src.cxx.o
+/usr/bin/c++    -fPIC -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG   -fvisibility-inlines-hidden -o CMakeFiles/cmTC_0af1c.dir/src.cxx.o -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0af1c
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0af1c.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG    CMakeFiles/cmTC_0af1c.dir/src.cxx.o  -o cmTC_0af1c  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG succeeded with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_4730e/fast && /usr/bin/make  -f CMakeFiles/cmTC_4730e.dir/build.make CMakeFiles/cmTC_4730e.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4730e.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -DCXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG   -Wmissing-field-initializers -o CMakeFiles/cmTC_4730e.dir/src.cxx.o -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_4730e
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4730e.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -DCXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG    CMakeFiles/cmTC_4730e.dir/src.cxx.o  -o cmTC_4730e  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG succeeded with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_96b5c/fast && /usr/bin/make  -f CMakeFiles/cmTC_96b5c.dir/build.make CMakeFiles/cmTC_96b5c.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_96b5c.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -DCXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG   -Werror -Wdelete-non-virtual-dtor -o CMakeFiles/cmTC_96b5c.dir/src.cxx.o -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_96b5c
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96b5c.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -DCXX_SUPPORTS_DELETE_NON_VIRTUAL_DTOR_FLAG    CMakeFiles/cmTC_96b5c.dir/src.cxx.o  -o cmTC_96b5c  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_869ea/fast && /usr/bin/make  -f CMakeFiles/cmTC_869ea.dir/build.make CMakeFiles/cmTC_869ea.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_869ea.dir/src.c.o
+/usr/bin/cc   -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-comment -DC_SUPPORTS_WERROR_DATE_TIME   -Werror -Werror=date-time -o CMakeFiles/cmTC_869ea.dir/src.c.o   -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_869ea
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_869ea.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -Wall -W -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-comment -DC_SUPPORTS_WERROR_DATE_TIME    CMakeFiles/cmTC_869ea.dir/src.c.o  -o cmTC_869ea  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_07c7a/fast && /usr/bin/make  -f CMakeFiles/cmTC_07c7a.dir/build.make CMakeFiles/cmTC_07c7a.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_07c7a.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wdelete-non-virtual-dtor -Wno-comment -DCXX_SUPPORTS_WERROR_DATE_TIME   -Werror -Werror=date-time -o CMakeFiles/cmTC_07c7a.dir/src.cxx.o -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_07c7a
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07c7a.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wdelete-non-virtual-dtor -Wno-comment -DCXX_SUPPORTS_WERROR_DATE_TIME    CMakeFiles/cmTC_07c7a.dir/src.cxx.o  -o cmTC_07c7a  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CXX11 succeeded with the following output:
+Change Dir: /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_40932/fast && /usr/bin/make  -f CMakeFiles/cmTC_40932.dir/build.make CMakeFiles/cmTC_40932.dir/build
+make[1]: Entering directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_40932.dir/src.cxx.o
+/usr/bin/c++    -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wdelete-non-virtual-dtor -Wno-comment -Werror=date-time -DCXX_SUPPORTS_CXX11   -std=c++11 -o CMakeFiles/cmTC_40932.dir/src.cxx.o -c /home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_40932
+/opt/clion/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40932.dir/link.txt --verbose=1
+/usr/bin/c++   -fPIC -fvisibility-inlines-hidden -Wall -W -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wno-maybe-uninitialized -Wdelete-non-virtual-dtor -Wno-comment -Werror=date-time -DCXX_SUPPORTS_CXX11    CMakeFiles/cmTC_40932.dir/src.cxx.o  -o cmTC_40932  -lm 
+make[1]: Leaving directory '/home/nansan/CLionProjects/Armariris/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { return 0; }
